@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -19,7 +20,7 @@
 /* Header styles */
 
 header {
-  background: url('assets/images/health.jpg') no-repeat;
+  background: url('/assets/images/health.jpg') no-repeat;
   background-size: auto;
   width: 100%;
   height: 70vh;

@@ -1,6 +1,4 @@
 <?php
-require_once './models/db.php';
-
 class class_school extends DB
 {
   public function list_classes(): array
