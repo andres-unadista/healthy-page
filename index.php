@@ -46,8 +46,8 @@
       </div>
       <div class="section__contact">
         <ul>
-          <li>Correo: test@company.com</li>
-          <li>Teléfono: 3000100009</li>
+          <li>Correo: test@text.test</li>
+          <li>Teléfono: 0000-0000</li>
         </ul>
       </div>
     </section>

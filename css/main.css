@@ -100,7 +100,7 @@ main img {
 
 .section__about-us {
   text-align: center;
-  background-color: rgba(233, 150, 122, 0.267);
+  background-color: rgba(233, 150, 122, 0.062);
   padding: 1rem;
   width: 40%;
 }
@@ -110,10 +110,12 @@ main img {
 }
 
 .section__contact {
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.233);
   width: 60%;
   font-size: 1.2rem;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .section__contact ul {
