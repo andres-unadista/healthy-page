@@ -13,6 +13,12 @@ class UserController
       $user = User::getUserByEmail($email);
       if ($user && password_verify($password, $user['password'])) {
         $_SESSION[session_id()]['user'] = $user;
+        $role = (int) $_SESSION[session_id()]['user']['role'];
+        if ($role === 2) {
+          header('Location: /pages/home/client.php');
+        } else {
+          header('Location: /pages/home/admin.php');
+        }
         echo 'Usuario logeado';
         var_dump($_SESSION);
         return;
